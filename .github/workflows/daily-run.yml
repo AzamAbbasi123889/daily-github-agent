@@ -1,0 +1,50 @@
+name: Daily AI Project Generator
+
+on:
+  schedule:
+    # Runs at 09:00 UTC every day
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  generate-project:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to commit projects.json back to the repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Daily Project Generator
+        env:
+          # The agent uses the GH_TOKEN to authenticate the GitHub CLI automatically
+          GH_TOKEN: ${{ secrets.AGENT_GITHUB_TOKEN }}
+        run: |
+          # Set git config so it can commit locally during repo creation
+          git config --global user.name "Daily GitHub Agent"
+          git config --global user.email "actions@github.com"
+          
+          # Run the orchestrator
+          python main.py
+
+      - name: Commit Updated History
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Daily GitHub Agent"
+          git add data/projects.json
+          
+          # Only commit if the history file actually changed
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update project history [skip ci]" && git push)

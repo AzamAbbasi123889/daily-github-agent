@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "name": "ai-resume-analyzer",
+            "repository": "ai-resume-analyzer",
+            "github_url": "https://github.com/AzamAbbasi123889/ai-resume-analyzer",
+            "created_at": "2026-09-18T20:03:27.654732",
+            "category": "Generative AI",
+            "difficulty": "Intermediate",
+            "language": "Python",
+            "status": "created"
+        }
+    ]
+}

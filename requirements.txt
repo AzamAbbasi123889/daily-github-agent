@@ -1,0 +1,5 @@
+# Daily GitHub Agent - Dependencies
+# Core dependencies use Python standard library only
+# pytest is the only external dependency needed
+
+pytest>=7.0.0
