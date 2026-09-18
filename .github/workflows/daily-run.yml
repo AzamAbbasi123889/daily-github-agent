@@ -1,6 +1,9 @@
 name: Daily AI Project Generator
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     # Runs at 09:00 UTC every day
     - cron: '0 9 * * *'
