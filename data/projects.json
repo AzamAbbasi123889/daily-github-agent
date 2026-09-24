@@ -69,6 +69,16 @@
             "difficulty": "Advanced",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "neural-style-transfer-engine",
+            "repository": "neural-style-transfer-engine",
+            "github_url": "https://github.com/AzamAbbasi123889/neural-style-transfer-engine",
+            "created_at": "2026-09-24T13:58:52.982117",
+            "category": "Deep Learning",
+            "difficulty": "Advanced",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
