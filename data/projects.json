@@ -79,6 +79,16 @@
             "difficulty": "Advanced",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "lstm-text-generator",
+            "repository": "lstm-text-generator",
+            "github_url": "https://github.com/AzamAbbasi123889/lstm-text-generator",
+            "created_at": "2026-09-25T14:23:12.566172",
+            "category": "Deep Learning",
+            "difficulty": "Intermediate",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
