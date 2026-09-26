@@ -89,6 +89,16 @@
             "difficulty": "Intermediate",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "autoencoder-anomaly-detector",
+            "repository": "autoencoder-anomaly-detector",
+            "github_url": "https://github.com/AzamAbbasi123889/autoencoder-anomaly-detector",
+            "created_at": "2026-09-26T13:35:15.561253",
+            "category": "Deep Learning",
+            "difficulty": "Advanced",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
