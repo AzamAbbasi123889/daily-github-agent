@@ -109,6 +109,16 @@
             "difficulty": "Expert",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "semantic-document-search",
+            "repository": "semantic-document-search",
+            "github_url": "https://github.com/AzamAbbasi123889/semantic-document-search",
+            "created_at": "2026-09-28T17:17:14.733533",
+            "category": "NLP",
+            "difficulty": "Intermediate",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
