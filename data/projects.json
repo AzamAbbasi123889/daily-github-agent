@@ -149,6 +149,16 @@
             "difficulty": "Advanced",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "topic-modeling-pipeline",
+            "repository": "topic-modeling-pipeline",
+            "github_url": "https://github.com/AzamAbbasi123889/topic-modeling-pipeline",
+            "created_at": "2026-10-02T15:17:29.076646",
+            "category": "NLP",
+            "difficulty": "Advanced",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
