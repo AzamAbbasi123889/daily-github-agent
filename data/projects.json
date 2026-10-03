@@ -159,6 +159,16 @@
             "difficulty": "Advanced",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "hf-lora-fine-tuning-pipeline",
+            "repository": "hf-lora-fine-tuning-pipeline",
+            "github_url": "https://github.com/AzamAbbasi123889/hf-lora-fine-tuning-pipeline",
+            "created_at": "2026-10-03T14:07:06.221894",
+            "category": "Hugging Face",
+            "difficulty": "Expert",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
