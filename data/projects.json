@@ -179,6 +179,16 @@
             "difficulty": "Intermediate",
             "language": "Python",
             "status": "created"
+        },
+        {
+            "name": "hf-text-classification-trainer",
+            "repository": "hf-text-classification-trainer",
+            "github_url": "https://github.com/AzamAbbasi123889/hf-text-classification-trainer",
+            "created_at": "2026-10-05T17:46:06.016938",
+            "category": "Hugging Face",
+            "difficulty": "Intermediate",
+            "language": "Python",
+            "status": "created"
         }
     ]
 }
